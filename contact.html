@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+body {
+    font-family: 'Calibri', Times, serif;
+}
+{margin: 0;}
 
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(27, 33, 39);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(0, 0, 0);}
+
+ul.topnav li a.active {background-color: rgb(27, 0, 145)}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body> 
+        
+  <ul class="topnav">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="over-mij.html">Over mij</a></li>
+    <li><a href="nieuws.html">Tarieven</a></li>
+    <li><class="right"><a href="projecten.html">Projecten</a></li>
+    <li><class="right"><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="container content padding-64" style="max-width:800px" id="contact">
+  
+      <p class="opacity center"><i>Laat gerust Feedback achter.</i></p>
+      <div class="row padding-32">
+        <div class="">
+          <i class="fa fa-map-marker" style="width:30px"></i> Amsterdam/Amstelveen<br>
+          <i class="fa fa-phone" style="width:30px"></i> Telefoon:<br>
+          <i class="fa fa-envelope" style="width:30px"> </i> Email: <br>
+          <a href="sentEmail.html"></a>
+        </div>
