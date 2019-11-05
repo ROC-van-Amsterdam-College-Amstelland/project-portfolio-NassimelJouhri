@@ -63,3 +63,28 @@ ul.topnav li.right {float: right;}
           <i class="fa fa-envelope" style="width:30px"> <h4></i> Actief in regio Amsterdam <br></h4>
           <a href="sentEmail.html"></a>
         </div>
+
+        
+        <div class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">Voornaam</label>
+            <input type="text" id="fname" name="voornaam" placeholder="Je naam..">
+        
+            <label for="lname">Achternaam</label>
+            <input type="text" id="lname" name="achternaam" placeholder="Je achternaam..">
+        
+            <label for="land">Land</label>
+            <select id="land" name="land">
+              <option value="nederland">Nederland</option>
+              <option value="engeland">Engeland</option>
+              <option value="marokko">Marokko</option>
+            </select>
+        
+            <label for="subject"><h3>Onderwerp</h3></label>
+            <textarea id="subject" name="subject" placeholder="Vertel wat spannends.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>

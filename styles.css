@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://www.stedencanvas.nl/wp-content/uploads/2016/02/New-York-26.jpg);
+    background-image: url(https://workshopandcompany.nl/wp-content/uploads/2017/10/Krijtbord-achtergrond.jpg);
     background-size: 100%;
     color: white;
   }
@@ -8,3 +8,37 @@ body {
     font-size: 30px;
 
   }
+
+  
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: rgb(20, 123, 163);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #328fa7;
+}
+
+
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
