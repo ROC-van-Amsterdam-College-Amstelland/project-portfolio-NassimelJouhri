@@ -4,6 +4,7 @@ body {
   color: white;
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -14,6 +15,11 @@ ul {
   
   li {
     float: left;
+  }
+
+  .topnav{
+    list-style: none;
+    margin-top: 30px;
   }
   
   li a {
@@ -45,6 +51,7 @@ ul {
   }
   
   #intro-tekst{
+    margin-top:30px;
     position: relative; 
     display: flex;
     justify-content: center;
@@ -67,8 +74,14 @@ ul {
 
  }
 
- #github{
-  color: white;
+.github{
+  text-align: center;
 
  }
 
+ /*<img src= "Eigen-foto.jpeg" style="width: 20%;">*/
+
+ #demo{
+  text-align: right;
+  font-display: 30px;
+ }

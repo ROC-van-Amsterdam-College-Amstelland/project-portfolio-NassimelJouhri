@@ -23,7 +23,7 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-  background-color: rgb(20, 123, 163);
+  background-color: rgb(27, 0, 145);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -41,4 +41,9 @@ input[type=submit]:hover {
   border-radius: 5px;
   
   padding: 20px;
+}
+
+#mening{
+  text-align: right;
+
 }
