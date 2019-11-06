@@ -4,4 +4,7 @@ body {
     color: white;
   }
 
-  
+  .opdracht-header {
+    display: flex;
+   
+  }
